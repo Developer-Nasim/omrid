@@ -1,0 +1,270 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-wrap h1 { 
+        font-size: 46px;
+        line-height: 66px;
+    }
+     .ins_img img {
+        height: 600px;
+    }
+    
+     .ins_img h3 {
+        font-size: 38px;
+        line-height: 48px;
+    } 
+    .ins_content {
+        min-height: 450px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-wrap h1 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+    
+    section.hero-area {
+        padding: 120px 0;
+    }
+    
+    .about-wrap > div h3 {
+        font-size: 32px;
+    }
+    
+    section.about-area {
+        padding: 100px 0;
+    }
+    
+    section.solution-area {
+        padding: 100px 0;
+    }
+    
+    .solution-blk {
+        padding: 30px 25px;
+    }
+    
+    .solution-blk > p {
+        max-width: 100%;
+    }
+    
+    .ins_img h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .ins_content .section-title h6 {
+        font-size: 14px;
+    }
+    
+    .ins_content .section-title h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .ins_content .section-title p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    
+    .ins_content a {
+        font-size: 10px;
+    }
+    
+    .ins_content .section-title {
+        margin-bottom: 20px;
+    }
+    
+    .ins_content {
+        min-height: 400px;
+        padding: 40px 25px; 
+    }
+    
+    .ins_img img {
+        height: 500px;
+    }
+    
+    .location-blk {
+        margin-bottom: 30px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .hero-wrap h1 {
+        font-size: 24px;
+        line-height: normal;
+    }
+    
+    .theme-btn {
+        padding: 10px 25px;
+    }
+    
+    section.hero-area {
+        padding: 100px 0;
+    }
+    
+    section.about-area {
+        padding: 80px 0;
+    }
+    
+    .about-wrap {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    
+    section.about-area > img {
+        transform: unset;
+        position: unset;
+        display: block;
+        margin: auto;
+        max-width: 290px;
+        opacity: 1;
+        filter: unset;
+    }
+    
+    .about-wrap > h4 {
+        font-size: 16px;
+    }
+    
+    .about-wrap > div h3 {
+        font-size: 24px;
+    }
+    
+    .about-wrap > div a {
+        margin-top: 10px;
+    }
+    
+    section.solution-area {
+        padding: 80px 0;
+    }
+    
+    .section-title h6 {
+        font-size: 14px;
+    }
+    
+    .section-title h4 {
+        font-size: 22px;
+        line-height: normal;
+    }
+    
+    .solution-blk {
+        padding: 36px 25px;
+        margin-top: 30px;
+    }
+    
+    .solution-blk > p {
+        max-width: 70%;
+    }
+    
+    section.solution-area .section-title {
+        margin-bottom: 30px;
+    }
+
+    .single-insight {
+        flex-direction: column;
+    }
+    
+    section.insight-area {
+        padding: 80px 0;
+    }
+    
+    .ins_img {
+        width: 100%;
+    }
+    
+    .ins_img img {
+        height: 400px;
+    }
+    
+    .allInsights {
+        padding: 0;
+    }
+    
+    .ins_img h3 {
+        font-size: 24px;
+        line-height: normal;
+    }
+    
+    .ins_content {
+        width: 100%;
+        padding: 30px;
+        min-height: auto;
+    }
+    
+    .cta-wrap h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+    section.cta-area {
+        padding: 45px 0;
+    }
+    
+    section.location-area {
+        padding: 80px 0;
+    }
+     
+    .footer-logo {
+        max-width: 160px; 
+        margin-bottom: 45px;
+    }
+    
+    .footer-items {
+        justify-content: flex-start;
+        gap: 30px;
+        flex-direction: column;
+    }
+    
+    p.copyright {
+        font-size: 14px;
+        padding: 15px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
