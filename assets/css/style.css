@@ -490,7 +490,111 @@ section.insight-area {
   padding: 0 50px;
 }
 
-.owl-nav {display: flex;align-items: center;justify-content: space-between;position: absolute;width: 100%;top: 50%;left: 0;transform: translateY(-50%);}
+.owl-nav {display: flex;align-items: center;justify-content: space-between;position: absolute;width: 100%;top: 50%;left: 0;transform: translateY(-50%);z-index: -1;}
+
+ 
+
+section.casestudy-area {
+    background: #0099B51A;
+    padding: 100px 0;
+}
+
+.casestudy-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.all_cases_thumbs {
+  padding: 0 5px 0 30px;
+}
+.casestudy-left {
+    min-width: 300px;
+    width: 300px;
+}
+.casestudy-right{
+width: calc(100% - 300px);
+}
+.casestudy-left h5 {
+    font-size: 24px;
+    color: #0099B5;
+}
+
+.single_case_thumb {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.single_case_thumb img {
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    transition: .2s;
+}
+
+.single_case_thumb div {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+    color: #fff;
+    z-index: 2;
+}
+
+.single_case_thumb div h4 {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+
+.single_case_thumb div p {
+    display: none;
+}
+.single_case_thumb div span {
+    margin: 0;
+    opacity: .7;
+}
+
+.single_case_thumb:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, rgba(0, 23, 35, 0.9) 47.26%, rgba(0, 23, 35, 0) 136.07%);
+    z-index: 1;
+}
+
+.single_case_thumb:hover img {
+    transform: scale(1.1);
+}
+
+.single_case_thumb.active > div,.single_case_thumb.active:after {
+    display: none;
+}
+
+.single_case_thumb.active img {
+    height: 300px;
+}
+
+.single_case_details {
+    padding: 30px;
+}
+
+.single_case_details h1 {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
 
 section.cta-area {
   position: relative;
